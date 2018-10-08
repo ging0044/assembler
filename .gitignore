@@ -1,3 +1,5 @@
-/**/*.hack
-vendor/
-composer.*
+.stack-work/
+assembler.cabal
+*~
+.DS_Store
+.vscode

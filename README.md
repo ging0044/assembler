@@ -1,7 +1,7 @@
 # assembler
-assembler implemention for nand2tetris in PHP (the world needed this)
+assembler implemention for nand2tetris in Haskell
 
 ## usage
-```php assembler.php ../input_file.asm [output]```
+`stack build && stack exec assembler-exe <asm file>`
 
-if you don't specify an output, a file with the same name as the input will be made in the assembler folder
+The created file will have the same name as the provided asm file, but with the extension `.hack`.
